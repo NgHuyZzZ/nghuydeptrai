@@ -6,6 +6,8 @@ elseif game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/LOS.lua"))()
 elseif game.PlaceId == 13127800756 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/AWS.lua"))()
+elseif game.PlaceId == 8737602449 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/PlsDonate.lua"))()
 else
     print("Not Support")
 end
