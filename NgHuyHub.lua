@@ -4,6 +4,8 @@ elseif game.PlaceId == 13772394625 or game.PlaceId == 14915220621 or game.PlaceI
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/BladeBall.lua"))()
 elseif game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/LOS.lua"))()
+elseif game.PlaceId == 13127800756 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/AWS.lua"))()
 else
     print("Not Support")
 end
