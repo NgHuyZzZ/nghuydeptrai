@@ -1,6 +1,6 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/lol/main/MM2Library"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/lol/main/MM2Library.txt"))()
 library.rank = "developer"
-local Wm = library:Watermark("NgHuy Hub " .. library:GetUsername() .. "")
+local Wm = library:Watermark("" .. library:GetUsername() .. "")
 local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
 coroutine.wrap(function()
     while wait(.75) do
