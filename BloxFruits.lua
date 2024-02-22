@@ -1,3 +1,9 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = "NgHuy Hub",
+Text = "Script has been loaded!",
+Duration = 5,
+})
+
 local Notif = {}
 
 local CoreGUI = game:GetService("CoreGui")
