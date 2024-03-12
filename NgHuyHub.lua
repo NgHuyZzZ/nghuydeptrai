@@ -1,4 +1,11 @@
-if game.PlaceId = 7449423635 or 2753915549 or 4442272183 then 
+if game.PlaceId == 2753915549 then
+    print ("Blox Fruits")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/gg.lua"))()
+elseif game.PlaceId == 4442272183 then
+    print ("Blox Fruits")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/gg.lua"))()
+elseif game.PlaceId == 7449423635 then
+    print ("Blox Fruits")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/gg.lua"))()
 elseif game.PlaceId == 13772394625 then
     print ("Blade Ball")
@@ -32,10 +39,6 @@ elseif game.PlaceId == 15517169103 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/BladeBall.lua"))()
 elseif game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/LOS.lua"))()
-elseif game.PlaceId == 13127800756 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/AWS.lua"))()
-elseif game.PlaceId == 8737602449 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/PlsDonate.lua"))()
 elseif game.PlaceId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/mm2.lua"))()
 else
