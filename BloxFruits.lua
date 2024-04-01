@@ -21,7 +21,7 @@ local Tabs = {
     Raid = Window:AddTab({ Title = "Dungeon", Icon = "swords" }),
     Race = Window:AddTab({ Title = "Tộc V4", Icon = "chevrons-right" }),
     Shop = Window:AddTab({ Title = "Cửa hàng", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Tào lao", Icon = "list-plus" }),
+	Misc = Window:AddTab({ Title = "Khác", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
 
@@ -3389,7 +3389,7 @@ spawn(function()
 
 
     local DropdownBoss = Tabs.Main:AddDropdown("DropdownBoss", {
-        Title = "Dropdown",
+        Title = "Chọn",
         Values = tableBoss,
         Multi = false,
         Default = 1,
@@ -3481,7 +3481,7 @@ spawn(function()
 
     Tabs.Main:AddParagraph({
         Title = "Nguyên liệu",
-        Content = "Auto farm nguyên liệu"
+        Content = "Auto farm Material"
     })
 
     if First_Sea then
@@ -5599,8 +5599,8 @@ end)
 
 
 Tabs.Race:AddButton({
-    Title = "Temple Of Time",
-    Description = "",
+    Title = "Đền thờ",
+    Description = "Temple Of Time",
     Callback = function()
         game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
     end
@@ -5608,8 +5608,8 @@ Tabs.Race:AddButton({
 
 
 Tabs.Race:AddButton({
-    Title = "Lever Pull",
-    Description = "",
+    Title = "Gạt cần",
+    Description = "Lever Pull",
     Callback = function()
         TP2(CFrame.new(28575.181640625, 14936.6279296875, 72.31636810302734))
     end
@@ -5632,8 +5632,8 @@ Tabs.Race:AddParagraph({
 
 
 Tabs.Race:AddButton({
-    Title = "Race Door",
-    Description = "",
+    Title = "Đến cửa tộc của bạn",
+    Description = "Race Door",
     Callback = function()
         Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875) 
         wait(0.1)
