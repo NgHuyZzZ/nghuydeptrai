@@ -1,12 +1,12 @@
 if game.PlaceId == 2753915549 then
     print ("Blox Fruits")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/gg.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/BloxFruits.lua"))()
 elseif game.PlaceId == 4442272183 then
     print ("Blox Fruits")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/gg.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/BloxFruits.lua"))()
 elseif game.PlaceId == 7449423635 then
     print ("Blox Fruits")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/gg.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/BloxFruits.lua"))()
 elseif game.PlaceId == 13772394625 then
     print ("Blade Ball")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NgHuyZzZ/nghuydeptrai/main/BladeBall.lua"))()
